@@ -1,0 +1,63 @@
+site_name: AI & System Design Learning Platform
+site_url: https://anupdangi.github.io/AIandSD_blogs_articles/
+site_description: Guided roadmaps for Cloud, System Design, Applied AI, plus a 60-day AI+SD sprint — built from 4 field PDFs with sources.
+site_author: Anup Dangi
+repo_url: https://github.com/AnupDangi/AIandSD_blogs_articles
+repo_name: AnupDangi/AIandSD_blogs_articles
+copyright: Anup Dangi
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format ""
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+nav:
+  - Home: index.md
+  - Cloud: cloud/index.md
+  - System Design: system-design/index.md
+  - Applied AI: applied-ai/index.md
+  - 60-Day Sprint: 60-day/index.md
+
+validation:
+  absolute_links: warn
