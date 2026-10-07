@@ -1,9 +1,9 @@
 site_name: AI & System Design Learning Platform
-site_url: https://anupdangi.github.io/AIandSD_blogs_articles/
+site_url: https://anupdangi.github.io/learnlikeadev/
 site_description: Guided roadmaps for Cloud, System Design, Applied AI, plus a 60-day AI+SD sprint — built from 4 field PDFs with sources.
 site_author: Anup Dangi
-repo_url: https://github.com/AnupDangi/AIandSD_blogs_articles
-repo_name: AnupDangi/AIandSD_blogs_articles
+repo_url: https://github.com/AnupDangi/learnlikeadev
+repo_name: AnupDangi/learnlikeadev
 copyright: Anup Dangi
 
 theme:
@@ -57,7 +57,68 @@ nav:
   - Cloud: cloud/index.md
   - System Design: system-design/index.md
   - Applied AI: applied-ai/index.md
-  - 60-Day Sprint: 60-day/index.md
+  - 60-Day Sprint:
+    - Overview: 60-day/index.md
+    - Day 01: 60-day/day01.md
+    - Day 02: 60-day/day02.md
+    - Day 03: 60-day/day03.md
+    - Day 04: 60-day/day04.md
+    - Day 05: 60-day/day05.md
+    - Day 06: 60-day/day06.md
+    - Day 07: 60-day/day07.md
+    - Day 08: 60-day/day08.md
+    - Day 09: 60-day/day09.md
+    - Day 10: 60-day/day10.md
+    - Day 11: 60-day/day11.md
+    - Day 12: 60-day/day12.md
+    - Day 13: 60-day/day13.md
+    - Day 14: 60-day/day14.md
+    - Day 15: 60-day/day15.md
+    - Day 16: 60-day/day16.md
+    - Day 17: 60-day/day17.md
+    - Day 18: 60-day/day18.md
+    - Day 19: 60-day/day19.md
+    - Day 20: 60-day/day20.md
+    - Day 21: 60-day/day21.md
+    - Day 22: 60-day/day22.md
+    - Day 23: 60-day/day23.md
+    - Day 24: 60-day/day24.md
+    - Day 25: 60-day/day25.md
+    - Day 26: 60-day/day26.md
+    - Day 27: 60-day/day27.md
+    - Day 28: 60-day/day28.md
+    - Day 29: 60-day/day29.md
+    - Day 30: 60-day/day30.md
+    - Day 31: 60-day/day31.md
+    - Day 32: 60-day/day32.md
+    - Day 33: 60-day/day33.md
+    - Day 34: 60-day/day34.md
+    - Day 35: 60-day/day35.md
+    - Day 36: 60-day/day36.md
+    - Day 37: 60-day/day37.md
+    - Day 38: 60-day/day38.md
+    - Day 39: 60-day/day39.md
+    - Day 40: 60-day/day40.md
+    - Day 41: 60-day/day41.md
+    - Day 42: 60-day/day42.md
+    - Day 43: 60-day/day43.md
+    - Day 44: 60-day/day44.md
+    - Day 45: 60-day/day45.md
+    - Day 46: 60-day/day46.md
+    - Day 47: 60-day/day47.md
+    - Day 48: 60-day/day48.md
+    - Day 49: 60-day/day49.md
+    - Day 50: 60-day/day50.md
+    - Day 51: 60-day/day51.md
+    - Day 52: 60-day/day52.md
+    - Day 53: 60-day/day53.md
+    - Day 54: 60-day/day54.md
+    - Day 55: 60-day/day55.md
+    - Day 56: 60-day/day56.md
+    - Day 57: 60-day/day57.md
+    - Day 58: 60-day/day58.md
+    - Day 59: 60-day/day59.md
+    - Day 60: 60-day/day60.md
 
 validation:
   absolute_links: warn

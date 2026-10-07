@@ -16,7 +16,7 @@ Open http://127.0.0.1:8000
 Push to `main` triggers `.github/workflows/deploy-pages.yml` (build → upload artifact → deploy).
 Then enable: repo Settings → Pages → Source: **GitHub Actions**. Live URL:
 
-`https://anupdangi.github.io/AIandSD_blogs_articles/`
+`https://anupdangi.github.io/learnlikeadev/`
 
 ## Source PDFs (single source of truth)
 
